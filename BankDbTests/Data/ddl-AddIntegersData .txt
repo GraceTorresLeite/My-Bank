@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[AddIntegersData] (
+    [FirstNumber]  INT NULL,
+    [SecondNumber] INT NULL,
+    [Sum]          INT NULL
+);
+
+INSERT into AddIntegersData (Id,FirstNumber,SecondNumber,Sum)
+VALUES(1,1,2,3);
