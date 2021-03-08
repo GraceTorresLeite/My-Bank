@@ -1,6 +1,20 @@
 # My-Bank
 
+
+| Tests      |Goals                                       | Result |
+|------------|--------------------------------------------|--------|
+|     1      |Add integers from data source               |   ✔   |
+|     2      |import csv file into the project            |   ✔   |
+|     3      |automate registration filling with csv file |   ✔   |
+
+
+[Test Site](http://eaapp.somee.com/)
+
+
 <img src="/img/testsOk.png" width="500" height="200">
+
+
+
 
 ### References
 [Create a data-driven unit test](https://docs.microsoft.com/en-us/visualstudio/test/how-to-create-a-data-driven-unit-test?view=vs-2019)
