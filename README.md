@@ -12,6 +12,7 @@
 
 
 <img src="/img/testsOk.png" width="500" height="200">
+<img src="/img/testOkMigrationCSV.png" width="500" height="200">
 
 
 

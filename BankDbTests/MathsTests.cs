@@ -31,10 +31,6 @@ namespace BankDbTests
                 "x:<{0}> y:<{1}>",
               new object[] { x, y });
 
-            // Assert.AreEqual(expected, actual);
-
-            //Console.WriteLine(expected + ":" + actual);
-
         }
 
 
@@ -44,14 +40,11 @@ namespace BankDbTests
         [TestMethod]
         public void MigrationCSV()
         {
-
+            //CONFIRM ID´S 1 AND 2
             int actual = (int)TestContext.DataRow["Id"];
-            //Console.WriteLine(TestContext.DataRow["Id"].ToString());
-
+            
             Assert.AreEqual(1,2,actual);
-           
-
-
+          
         }
     }
 }
