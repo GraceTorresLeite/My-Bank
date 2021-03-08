@@ -45,26 +45,11 @@ namespace BankDbTests
         public void MigrationCSV()
         {
 
+            int actual = (int)TestContext.DataRow["Id"];
+            //Console.WriteLine(TestContext.DataRow["Id"].ToString());
+
+            Assert.AreEqual(1,2,actual);
            
-           Console.WriteLine(TestContext.DataRow["Id"].ToString());
-
-            #region TestsHowImplementCSVInsideDatabase
-            //int id = (int)TestContext.DataRow["Id"];
-            //string name = (TestContext.DataRow["Nome"].ToString());
-            //string email = (TestContext.DataRow["Email"].ToString());
-            //DateTime birth = (DateTime)TestContext.DataRow["Nascimento"];
-            //string gender = (TestContext.DataRow["Genero"].ToString());
-            //string civilState = (TestContext.DataRow["Estado Civil"].ToString());
-            //client.ValidaClient(id);
-            //client = new Client(id,name,email,birth,gender,civilState);
-
-
-            //var numberClientsExpected = 2;
-            //var numberClientsActual = client._clients.Count();
-
-            //Console.WriteLine(client._clients);
-            //Assert.AreEqual(numberClientsExpected, numberClientsActual);
-            #endregion
 
 
         }

@@ -54,19 +54,6 @@ namespace BankDbTests
 
             Assert.IsTrue(expected);
 
-            #region MyRegion
-            //this.UIMap.EnterValueParams.UIItem0TextSendKeys = TestContext.DataRow["ValueOne"].ToString();
-
-            //string password = TestContext.DataRow["Password"].ToString;
-            //string passwordConfirm = TestContext.DataRow["Password"];
-            //string email = TestContext.DataRow["Password"];
-            //int actual = register.formRegister(userName, password, passwordConfirm, email);
-            // Assert.AreEqual(expected, actual);
-            #endregion
-
-
-
-
         }
 
         [TestCleanup]
