@@ -37,7 +37,7 @@ namespace BankDbTests
 
         }
 
-        
+
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
          "|DataDirectory|\\clients.csv", "clients#csv",
           DataAccessMethod.Sequential), DeploymentItem("Data\\clients.csv")]
@@ -47,6 +47,8 @@ namespace BankDbTests
 
            
            Console.WriteLine(TestContext.DataRow["Id"].ToString());
+
+            #region TestsHowImplementCSVInsideDatabase
             //int id = (int)TestContext.DataRow["Id"];
             //string name = (TestContext.DataRow["Nome"].ToString());
             //string email = (TestContext.DataRow["Email"].ToString());
@@ -62,6 +64,8 @@ namespace BankDbTests
 
             //Console.WriteLine(client._clients);
             //Assert.AreEqual(numberClientsExpected, numberClientsActual);
+            #endregion
+
 
         }
     }
