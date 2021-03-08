@@ -1,6 +1,6 @@
 # My-Bank
 
-<img src="/MyBank/img/testsOk.png" width="500" height="300">
+<img src="/img/testsOk.png" width="500" height="200">
 
 ### References
 [Create a data-driven unit test](https://docs.microsoft.com/en-us/visualstudio/test/how-to-create-a-data-driven-unit-test?view=vs-2019)
